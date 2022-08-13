@@ -21,7 +21,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb{
-  background-image: linear-gradient(to bottom, rgb(102, 2, 102),rgb(11, 11, 158));
+  background-image: linear-gradient(to bottom, rgb(102, 2, 2),rgb(158, 21, 11));
   border-radius: 10px;
 }
 
@@ -75,5 +75,11 @@ main{
 button{
   margin:20px;
   padding: 10px;
-  
+  border: 1px solid white;
+  background-color: rgb(201, 5, 5);
+  color:white;
+}
+button:hover{
+  transform: scale(1.1);
+    transition: all 0.5s;
 }
