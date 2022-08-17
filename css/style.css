@@ -39,8 +39,13 @@ header{
 
 main{
   background-color: rgb(129, 21, 21);
-  height: 555px;
 }
+
+input{
+  font-size: 17px;
+  width: 50%;
+}
+
 .distancia{
   margin-right: 25px;
 }
@@ -78,6 +83,7 @@ button{
   border: 1px solid white;
   background-color: rgb(201, 5, 5);
   color:white;
+  font-size: 15px;
 }
 button:hover{
   transform: scale(1.1);
